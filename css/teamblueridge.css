@@ -44,6 +44,11 @@ body > .container {
 	padding-right: 30px;
 }
 
+#main-logo {
+  max-width: 100%;
+  max-height: 150px;
+}
+
 .bio-pic {
   height: 120px;
   display: block;
@@ -58,7 +63,6 @@ body > .container {
 
 .bio-text {
   display: block;
-  height: 120px;
 }
 
 .soc-icon {
@@ -67,6 +71,11 @@ body > .container {
 
 .social-icons {
   height: 40px;
+}
+
+.bio-pic-holder {
+  display: block;
+  min-height: 120px;
 }
 
 .navbar {
