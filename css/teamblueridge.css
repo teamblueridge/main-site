@@ -61,6 +61,14 @@ body > .container {
   height: 120px;
 }
 
+.soc-icon {
+  height: 32px;
+}
+
+.social-icons {
+  height: 40px;
+}
+
 .navbar {
   font-size: 14px;
 }
