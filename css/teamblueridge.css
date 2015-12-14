@@ -45,12 +45,20 @@ body > .container {
 }
 
 .bio-pic {
-	float: left;
-	padding-right: 10px;
+  height: 120px;
+  display: block;
+  float: left;
+  padding-right: 15px;
 }
+
 .subsections {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.bio-text {
+  display: block;
+  height: 120px;
 }
 
 .navbar {
