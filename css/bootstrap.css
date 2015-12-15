@@ -4291,8 +4291,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 /* retina logo */
-@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1), screen and (max-width: 600px) and (min-resolution: 1dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1), screen and (min-resolution: 1dppx) {
   background-image: url('../img/logo2x.png');
+  background-size: 100%;
   width: 250px;
   height: 60px;
 }
