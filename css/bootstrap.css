@@ -4279,12 +4279,24 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: 10px;
+  text-indent: -9999px;
   float: left;
-  padding: 20.5px 15px;
+  padding: 20.5px 80px;
   font-size: 17px;
   line-height: 23px;
   height: 64px;
 }
+
+/* retina logo */
+@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1), screen and (max-width: 600px) and (min-resolution: 1dppx) {
+  background-image: url('../img/logo2x.png');
+  width: 250px;
+  height: 60px;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
