@@ -6,47 +6,276 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 200px;
 }
-.footer {
+#layout-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+  height: 200px;
+  background-color: #0f4c67;
+  background-image: url(../img/mountains.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
+#layout-footer .container {
+  margin-top: 150px;
+}
 
-/* Custom page CSS
+#layout-footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#layout-footer a, a:hover {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+#layout-footer nav ul li:first-child {margin-left: 0}
+
+#layout-footer nav ul li {
+  float: left;
+  margin-left: 25px;
+  line-height: 25px;
+}
+
+.copyleft {
+  color: #bdc3c7;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  #layout-footer .container{
+    margin-top: 100px;
+    }
+  #layout-footer {
+    height: 150px;
+    }
+  body {
+    margin-bottom: 150px;
+    }
+}
+
+/* Custom Homepage CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-body > .container {
-  padding: 60px 15px 0;
-}
-.container .text-muted {
-  margin: 20px 0;
+@media (min-width: 768px) {
+  .tbrintro {
+    margin-top: 150px
+    }
 }
 
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+.headline {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
 }
 
-.main-body {
-	padding-left: 15px;
-	padding-right: 15px;
+.headline > span {
+    display: inline-block;
+    position: relative;
+    background: #f3f3f3;
+    padding-right: 15px;
 }
 
+.headline:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #bdc3c7;
+}
+
+.services {
+    margin: 30px 0;
+}
+
+.services .service-item > i {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    margin-right: 15px;
+    background: #0f4c67;
+    color: white;
+    float: left;
+}
+
+.services .service-desc {
+    overflow: hidden;
+}
+
+.services .service-desc > h5 {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.services .service-desc > p {
+    font-size: 15px;
+}
+
+/* FONT AWESOME CORE
+-------------------------------------------------- */
+[class^="icon-"],
+[class * =" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    * margin-right: .3em;
+}
+
+[class^="icon-"]:before,
+[class * =" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+}
+
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+    vertical-align: -10%;
+    font-size: 1.33333333em;
+}
+
+/* makes sure icons active on rollover in links */
+a [class^="icon-"],
+a [class * =" icon-"] {
+    display: inline;
+}
+
+/* increased font size for icon-large */
+[class^="icon-"].icon-fixed-width,
+[class * =" icon-"].icon-fixed-width {
+    display: inline-block;
+    width: 1.14285714em;
+    text-align: right;
+    padding-right: 0.28571429em;
+}
+
+[class^="icon-"].icon-fixed-width.icon-large,
+[class * =" icon-"].icon-fixed-width.icon-large {
+    width: 1.42857143em;
+}
+
+.icons-ul {
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+
+.icons-ul > li {
+    position: relative;
+}
+
+.icons-ul .icon-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    text-align: center;
+    line-height: inherit;
+}
+
+[class^="icon-"].hide,
+[class * =" icon-"].hide {
+    display: none;
+}
+
+.icon-muted {
+    color: #eeeeee;
+}
+
+.icon-light {
+    color: #ffffff;
+}
+
+.icon-dark {
+    color: #333333;
+}
+
+.icon-border {
+    border: solid 1px #eeeeee;
+    padding: .2em .25em .15em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.icon-2x {
+    font-size: 2em;
+}
+
+.icon-2x.icon-border {
+    border-width: 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.icon-3x {
+    font-size: 3em;
+}
+
+.icon-3x.icon-border {
+    border-width: 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.icon-4x {
+    font-size: 4em;
+}
+
+.icon-4x.icon-border {
+    border-width: 4px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.icon-5x {
+    font-size: 5em;
+}
+
+.icon-5x.icon-border {
+    border-width: 5px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+[class^="icon-"].pull-left,
+[class * =" icon-"].pull-left {
+    margin-right: .3em;
+}
+
+[class^="icon-"].pull-right,
+[class * =" icon-"].pull-right {
+    margin-left: .3em;
+}
+
+/* Custom team page CSS
+-------------------------------------------------- */
 #all-bios {
 	padding-left: 30px;
 	padding-right: 30px;
-}
-
-#main-logo {
-  max-width: 100%;
-  max-height: 150px;
 }
 
 .bio-pic {
@@ -77,6 +306,35 @@ body > .container {
   display: block;
   min-height: 120px;
 }
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-body {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#main-logo {
+  max-width: 100%;
+  max-height: 150px;
+}
+
 
 .navbar {
   font-size: 14px;

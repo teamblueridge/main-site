@@ -22,12 +22,17 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Icons font for this template -->
+    <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/teamblueridge.css" rel="stylesheet">
+    
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -50,7 +55,7 @@
           <a class="navbar-brand" href="/">Team BlueRidge</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav pull-advanced">
             <li><a href="/the-team.html">The Team</a></li>
             <li><a href="/contribute.html">Contribute</a></li>
             <li><a href="/contact.html">Contact</a></li>
@@ -60,38 +65,111 @@
       </div>
     </nav>
 
-    <div class="container">
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <!--<h1>Team BlueRidge</h1>-->
-          <h1><img src="img/logo2x.png" id="main-logo" /></h1>
+    <div class="container main body">
+      <div class="lead col-sm-6">
+          <h1>Welcome</h1>
           <p>We are a group of mobile and web developers learning together to create new and better projects.
             Our largest project is currently <a href="https://github.com/teamblueridge/PasteIt">Paste It</a>, an app for
             uploading text to <a href="https://github.com/claudehohl/Stikked">Stikked</a>. We welcome all contributions
             to any works.</p>
-          <p><a class="btn btn-primary btn-lg" href="contribute.html" role="button">Contribute &raquo;</a></p>
-        </div>
+      </div>
+      <div class="col-sm-4">
+        <p><a class="tbrintro btn btn-primary btn-lg pull-right" href="contribute.html" role="button">Contribute &raquo;</a></p><br></br>
       </div>
 
-      <div class="main-body">
-        <h1>Welcome</h1>
-        <p class="lead">Welcome to our new site! We've done a lot of work recently. If you have any issues, feel free to
-          <a href="contact.html">contact</a> us. Many of our services have been relocated to new subdomains and some have
-          been dropped entirely. You can read about this on our <a href="https://blog.teamblueridge.org">blog</a>.</p>
-      </div>
+<div class="container">
+    <div class="row our-services">
+        <div class="col-sm-12">
+            <h4 class="headline"><span>Some of our services</span></h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="services">
+                        <div class="service-item">
+                            <i class="icon-picture"></i>
+                            <div class="service-desc">
+                                <h5>Redmine</h5>
+                                <p>This platform hosts all our projects, and also services as a wiki for all sorts of information.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="services">
+                        <div class="service-item">
+                            <i class="icon-refresh"></i>
+                            <div class="service-desc">
+                                <h5>Gerrit</h5>
+                                <p>This code review system originally developed for Android allows anyone to easily push code changes to open source git projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="services">
+                        <div class="service-item">
+                            <i class="icon-desktop"></i>
+                            <div class="service-desc">
+                                <h5>Jenkins</h5>
+                                <p>This buildbox allows you to compile code on another machine then yours. Ideal for creating ROMs and such.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="services">
+                        <div class="service-item">
+                            <i class="icon-gear"></i>
+                            <div class="service-desc">
+                                <h5>Stikked</h5>
+                                <p>An online platform to share code snippets, code, etc. Simple, secure and fast.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="services">
+                        <div class="service-item">
+                            <i class="icon-envelope"></i>
+                            <div class="service-desc">
+                                <h5>Paste It</h5>
+                                <p>Companion app for our Stikked service. Stable Android app, iOS is in the works.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="services">
+                        <div class="service-item">
+                            <i class="icon-plus"></i>
+                            <div class="service-desc">
+                                <h5>Other stuff</h5>
+                                <p>All our apps are open source and hosted on github. We are constantly working on new things.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
     </div><!-- /.container -->
 
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">&copy; 2015 Team BlueRidge</p>
-      </div>
+    <footer id="layout-footer">
+      <div class="container">   
+      	<nav>   
+          <ul class="pull-left">
+            <li><a href="https://review.teamblueridge.org" target="_blank">Gerrit</a></li>
+            <li><a href="https://jenkins.teamblueridge.org" target="_blank">Jenkins</a></li>
+            <li><a href="https://paste.teamblueridge.org" target="_blank">Paste</a></li>
+    	  </ul>
+        </nav>
+          <p class="copyleft pull-right">Copyleft since 2012 - Team BlueRidge</p>
+	  </div>
     </footer>
-
-
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
