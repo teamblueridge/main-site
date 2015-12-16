@@ -123,7 +123,7 @@ body {
 }
 
 /* FONT AWESOME CORE
- * -------------------------- */
+-------------------------------------------------- */
 [class^="icon-"],
 [class * =" icon-"] {
     font-family: FontAwesome;
@@ -271,35 +271,11 @@ a [class * =" icon-"] {
     margin-left: .3em;
 }
 
-/* Custom page CSS
+/* Custom team page CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-body > .container {
-  padding: 60px 15px 0;
-}
-.container .text-muted {
-  margin: 20px 0;
-}
-
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.main-body {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
 #all-bios {
 	padding-left: 30px;
 	padding-right: 30px;
-}
-
-#main-logo {
-  max-width: 100%;
-  max-height: 150px;
 }
 
 .bio-pic {
@@ -330,6 +306,35 @@ body > .container {
   display: block;
   min-height: 120px;
 }
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-body {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#main-logo {
+  max-width: 100%;
+  max-height: 150px;
+}
+
 
 .navbar {
   font-size: 14px;
