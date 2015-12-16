@@ -44,7 +44,7 @@ body {
   line-height: 25px;
 }
 
-.copyleft {
+.copyright {
   color: #bdc3c7;
   font-size: 14px;
 }
@@ -137,7 +137,7 @@ body {
   padding-right: 15px;
 }
 
-#bio-social-links {
+.bio-social-links {
   text-align: center;
   font-size: 30px;
 }
