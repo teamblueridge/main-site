@@ -1273,7 +1273,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 45px;
+  font-size: 40px;
 }
 h3,
 .h3 {
@@ -4284,20 +4284,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-position: 10px;
   text-indent: -9999px;
   float: left;
-  padding: 20.5px 80px;
   font-size: 17px;
   line-height: 23px;
   height: 64px;
+  width: 260px;
 }
 
 /* retina logo */
-@media only screen and (-webkit-min-device-pixel-ratio: 1), screen and (min-resolution: 1dppx) {
-  background-image: url('../img/logo2x.png');
-  background-size: 100%;
-  width: 250px;
-  height: 60px;
+@media only screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+  .navbar-brand { 
+    background-image: url('../img/logo2x.png');
+    background-size: 250px 60px;
+  }
 }
-
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -4348,6 +4347,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 23px;
 }
+
+
+@media (max-width: 767px) {
+  .pull-advanced {
+    float: left !important;
+    }
+  }
+  
+@media (min-width: 768px) {
+  .pull-advanced {
+    float: right !important;
+    }
+  }
+
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -6831,14 +6844,14 @@ button.close {
   background-position: 50%;
 }
 .btn-primary:focus {
-  background-color: #2196f3;
+  background-color: #072736;
 }
 .btn-primary:hover,
 .btn-primary:active:hover {
-  background-color: #0d87e9;
+  background-color: #072736;
 }
 .btn-primary:active {
-  background-color: #0b76cc;
+  background-color: #072736;
   background-image: -webkit-radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
   background-image: -o-radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
   background-image: radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
