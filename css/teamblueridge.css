@@ -99,7 +99,7 @@ body {
     height: 40px;
     width: 40px;
     border-radius: 40px;
-    line-height: 40px;
+    line-height: 42px;
     text-align: center;
     display: block;
     margin-right: 15px;
@@ -122,157 +122,9 @@ body {
     font-size: 15px;
 }
 
-/* FONT AWESOME CORE
--------------------------------------------------- */
-[class^="icon-"],
-[class * =" icon-"] {
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    -webkit-font-smoothing: antialiased;
-    * margin-right: .3em;
-}
-
-[class^="icon-"]:before,
-[class * =" icon-"]:before {
-    text-decoration: inherit;
-    display: inline-block;
-    speak: none;
-}
-
-/* makes the font 33% larger relative to the icon container */
-.icon-large:before {
-    vertical-align: -10%;
-    font-size: 1.33333333em;
-}
-
-/* makes sure icons active on rollover in links */
-a [class^="icon-"],
-a [class * =" icon-"] {
-    display: inline;
-}
-
-/* increased font size for icon-large */
-[class^="icon-"].icon-fixed-width,
-[class * =" icon-"].icon-fixed-width {
-    display: inline-block;
-    width: 1.14285714em;
-    text-align: right;
-    padding-right: 0.28571429em;
-}
-
-[class^="icon-"].icon-fixed-width.icon-large,
-[class * =" icon-"].icon-fixed-width.icon-large {
-    width: 1.42857143em;
-}
-
-.icons-ul {
-    margin-left: 2.14285714em;
-    list-style-type: none;
-}
-
-.icons-ul > li {
-    position: relative;
-}
-
-.icons-ul .icon-li {
-    position: absolute;
-    left: -2.14285714em;
-    width: 2.14285714em;
-    text-align: center;
-    line-height: inherit;
-}
-
-[class^="icon-"].hide,
-[class * =" icon-"].hide {
-    display: none;
-}
-
-.icon-muted {
-    color: #eeeeee;
-}
-
-.icon-light {
-    color: #ffffff;
-}
-
-.icon-dark {
-    color: #333333;
-}
-
-.icon-border {
-    border: solid 1px #eeeeee;
-    padding: .2em .25em .15em;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.icon-2x {
-    font-size: 2em;
-}
-
-.icon-2x.icon-border {
-    border-width: 2px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-}
-
-.icon-3x {
-    font-size: 3em;
-}
-
-.icon-3x.icon-border {
-    border-width: 3px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
-
-.icon-4x {
-    font-size: 4em;
-}
-
-.icon-4x.icon-border {
-    border-width: 4px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-}
-
-.icon-5x {
-    font-size: 5em;
-}
-
-.icon-5x.icon-border {
-    border-width: 5px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
-}
-
-.pull-right {
-    float: right;
-}
-
-.pull-left {
-    float: left;
-}
-
-[class^="icon-"].pull-left,
-[class * =" icon-"].pull-left {
-    margin-right: .3em;
-}
-
-[class^="icon-"].pull-right,
-[class * =" icon-"].pull-right {
-    margin-left: .3em;
-}
-
 /* Custom team page CSS
 -------------------------------------------------- */
+
 #all-bios {
 	padding-left: 30px;
 	padding-right: 30px;
@@ -285,32 +137,29 @@ a [class * =" icon-"] {
   padding-right: 15px;
 }
 
-.subsections {
-  padding-right: 15px;
-  padding-left: 15px;
+#bio-social-links {
+  text-align: center;
+  font-size: 30px;
 }
 
-.bio-text {
-  display: block;
+@media (min-width: 768px) {
+  #bio-social-links {
+    margin-top: 60px
+    }
 }
 
-.soc-icon {
-  height: 32px;
-}
-
-.social-icons {
-  height: 40px;
-}
-
-.bio-pic-holder {
-  display: block;
-  min-height: 120px;
-}
-
+.red {color: #c04c3d}
+.blue {color: #65a8de}
+.black {color: #1d1c1c}
 
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
+
+.subsections {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 body > .container {
   padding: 60px 15px 0;
