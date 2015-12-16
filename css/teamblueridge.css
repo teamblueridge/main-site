@@ -6,22 +6,29 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 200px;
 }
 #layout-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 200px;
   background-color: #0f4c67;
+  background-image: url(../img/mountains.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#layout-footer .container {
+  margin-top: 150px;
 }
 
 #layout-footer nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -40,8 +47,21 @@ body {
 
 .copyleft {
   color: #bdc3c7;
-  font-size: 16px;
+  font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  #layout-footer .container{
+    margin-top: 100px;
+    }
+  #layout-footer {
+    height: 150px;
+    }
+  body {
+    margin-bottom: 150px;
+    }
+}
+
 
 /* Custom Homepage CSS
 -------------------------------------------------- */
