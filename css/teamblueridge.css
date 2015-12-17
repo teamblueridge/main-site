@@ -69,6 +69,12 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+  .tbrintro {
+    margin-bottom: 40px
+    }
+}
+
 .headline {
     display: block;
     position: relative;
