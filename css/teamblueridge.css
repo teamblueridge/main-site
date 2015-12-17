@@ -149,7 +149,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  #bio-social-links {
+  .bio-social-links {
     margin-top: 60px
     }
 }
