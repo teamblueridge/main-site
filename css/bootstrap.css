@@ -6852,9 +6852,9 @@ button.close {
 }
 .btn-primary:active {
   background-color: #072736;
-  background-image: -webkit-radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
-  background-image: -o-radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
-  background-image: radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
+  background-image: -webkit-radial-gradient(circle, #072736 10%, #0f4c67 11%);
+  background-image: -o-radial-gradient(circle, #072736 10%, #0f4c67 11%);
+  background-image: radial-gradient(circle, #072736 10%, #0f4c67 11%);
   background-repeat: no-repeat;
   -webkit-background-size: 1000% 1000%;
           background-size: 1000%;

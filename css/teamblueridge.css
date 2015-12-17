@@ -69,6 +69,12 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+  .tbrintro {
+    margin-bottom: 40px
+    }
+}
+
 .headline {
     display: block;
     position: relative;
@@ -143,7 +149,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  #bio-social-links {
+  .bio-social-links {
     margin-top: 60px
     }
 }
