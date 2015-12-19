@@ -4291,12 +4291,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 /* retina logo */
-@media only screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 1.5dppx) {
   .navbar-brand { 
     background-image: url('../img/logo2x.png');
     background-size: 250px 60px;
   }
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2.5), screen and (min-resolution: 2.5dppx) {
+  .navbar-brand { 
+    background-image: url('../img/logo3x.png');
+    background-size: 250px 60px;
+  }
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
