@@ -1,3 +1,4 @@
+<?php; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="Contribute to Team BlueRidge.">
+  <meta name="description" content="Get in touch with Team BlueRidge.">
   <meta name="author" content="">
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -26,7 +27,7 @@
   <meta name="msapplication-TileColor" content="#dbd4c2">
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#dbd4c2">
-  <title>Contribute</title>
+  <title><?php echo $pagetitle; ?></title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -62,51 +63,13 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-advanced">
-        <li><a href="/the-team.html">The Team</a></li>
-        <li class="active"><a href="/contribute.html">Contribute</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/the-team">The Team</a></li>
+        <li><a href="/contribute">Contribute</a></li>
+        <li class="active"><a href="/contact">Contact</a></li>
         <li><a href="https://blog.teamblueridge.org/">Blog</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
 
-<div class="container">
-  <div class="main-body">
-    <h1>Contribute</h1>
-    <p class="lead">Team BlueRidge appreciates contributions and support of any form; whether it is a contribution of code, a monetary contribution, or a note telling us you appreciate one of our projects.</p>
-    <div class="subsections">
-      <h2>Code Contribution</h2>
-      <p class="lead">If you wish to contribute directly to one of our projects, the preferred method of doing so is by using our <a href="https://review.teamblueridge.org">Gerrit</a>. This allows us to have continual conversation about the code being contributed and makes submitting multiple patches for the same change easier to track. In situations where Gerrit is not a feasible option, we will also accept pull requests directly to our <a href="https://github.com/teamblueridge">GitHub</a> repositories; however these contributions will take longer to process.<br />
-        If you would like to see a list of the current issues that we are trying to solve across our projects, please check out our <a href="https://issues.teamblueridge.org">issue tracker</a>.</p>
-      <h2>Donations</h2>
-      <p class="lead">Team BlueRidge gratefully accepts any financial contributions to our PayPal account. You may send money to <code>webmaster@teamblueridge.com</code>. Any financial contributions will be used for maintaining servers or for other discretionary purposes as the team sees necessary.</p>
-      <h2>Support</h2>
-      <p class="lead">We love to hear about the ways that users have benefited from our services and projects. If you would like to share your story with us, please feel free to <a href="contact.html">contact us</a>.</p>
-    </div>
-  </div>
-</div><!-- /.container -->
-
-<footer id="layout-footer">
-  <div class="container">
-    <nav>
-      <ul class="pull-left">
-        <li><a href="https://review.teamblueridge.org">Gerrit</a></li>
-        <li><a href="https://jenkins.teamblueridge.org">Jenkins</a></li>
-        <li><a href="https://paste.teamblueridge.org">Paste</a></li>
-      </ul>
-    </nav>
-    <p class="copyright pull-right">&copy; 2015 Team BlueRidge</p>
-  </div>
-</footer>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-<script src="js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
+<?php; ?>
