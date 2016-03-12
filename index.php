@@ -80,9 +80,9 @@ include 'header.php';
                     <div class="col-sm-4">
                         <div class="services">
                             <div class="service-item">
-                                <i class="icon-plus"></i>
+                                <i class="icon-code"></i>
                                 <div class="service-desc">
-                                    <h5>Other stuff</h5>
+                                    <h5>Source Code</h5>
                                     <p>All our projects are open source and hosted on <a href="https://github.com/teamblueridge">GitHub</a>. We are constantly working on new things.</p>
                                 </div>
                             </div>
