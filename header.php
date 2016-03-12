@@ -27,7 +27,7 @@
   <meta name="msapplication-TileColor" content="#dbd4c2">
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#dbd4c2">
-  <title>Contact Us</title>
+  <title><?php echo $pagetitle; ?></title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">

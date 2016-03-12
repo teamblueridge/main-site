@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+$pagetitle = 'Thanks';
+include 'header.php'; 
+?>
 
 <div class="container">
     <div class="main-body">

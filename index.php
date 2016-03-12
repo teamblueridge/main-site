@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+$pagetitle = 'Team BlueRidge - Simply Breathtaking';
+include 'header.php'; 
+?>
 
 <div class="container main body">
     <div class="lead col-sm-6">

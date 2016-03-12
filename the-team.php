@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+$pagetitle = 'The Team';
+include 'header.php'; 
+?>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">

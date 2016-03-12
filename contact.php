@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+$pagetitle = 'Contact';
+include 'header.php'; 
+?>
 
 <div class="container">
   <div class="main-body col-sm-8">
