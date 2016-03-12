@@ -1,3 +1,4 @@
-The main site of Team BlueRidge, written using bootstrap css.
+The main site of Team BlueRidge, written using bootstrap css
+============================================================
 
-To Do: add htaccess file to redirect .php files to clean urls
+To do: change htaccess file to redirect .php files to clean urls
