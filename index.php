@@ -69,10 +69,10 @@ include 'header.php';
                     <div class="col-sm-4">
                         <div class="services">
                             <div class="service-item">
-                                <i class="icon-warning-sign"></i>
+                                <i class="icon-rss"></i>
                                 <div class="service-desc">
-                                    <h5>Status page</h5>
-                                    <p>Displays a list of the current status of all our services. Something is down? You see it right <a href="https://status.teamblueridge.org">here</a>.</p>
+                                    <h5>Blog</h5>
+                                    <p>Want to inform you on the recent news? You can read it on our <a href="https://blog.teamblueridge.org">blog</a>.</p>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ include 'header.php';
                             <div class="service-item">
                                 <i class="icon-code"></i>
                                 <div class="service-desc">
-                                    <h5>Source Code</h5>
+                                    <h5>Code</h5>
                                     <p>All our projects are open source and hosted on <a href="https://github.com/teamblueridge">GitHub</a>. We are constantly working on new things.</p>
                                 </div>
                             </div>
