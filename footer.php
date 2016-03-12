@@ -1,4 +1,17 @@
 <?php; ?>
+<footer id="layout-footer">
+  <div class="container">
+    <nav>
+      <ul class="pull-left">
+        <li><a href="https://review.teamblueridge.org">Gerrit</a></li>
+        <li><a href="https://jenkins.teamblueridge.org">Jenkins</a></li>
+        <li><a href="https://paste.teamblueridge.org">Paste</a></li>
+      </ul>
+    </nav>
+    <p class="copyright pull-right">&copy; 2015 Team BlueRidge</p>
+  </div>
+</footer>
+
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
