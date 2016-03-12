@@ -63,9 +63,9 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-advanced">
-        <li><a href="/the-team.php">The Team</a></li>
-        <li><a href="/contribute.php">Contribute</a></li>
-        <li class="active"><a href="/contact.php">Contact</a></li>
+        <li><a href="/the-team">The Team</a></li>
+        <li><a href="/contribute">Contribute</a></li>
+        <li class="active"><a href="/contact">Contact</a></li>
         <li><a href="https://blog.teamblueridge.org/">Blog</a></li>
       </ul>
     </div><!--/.nav-collapse -->
